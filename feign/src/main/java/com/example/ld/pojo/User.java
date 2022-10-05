@@ -1,4 +1,4 @@
-package com.example.order.pojo;
+package com.example.ld.pojo;
 
 import lombok.Data;
 

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="user" />
+        <module name="feign" />
         <module name="order" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="demo1" target="11" />
       <module name="enraka" target="11" />
       <module name="eureka" target="11" />
+      <module name="feign" target="11" />
       <module name="order" target="11" />
       <module name="user" target="11" />
     </bytecodeTargetLevel>
@@ -24,6 +26,7 @@
       <module name="demo1" options="" />
       <module name="enraka" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="feign" options="-parameters" />
       <module name="order" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>

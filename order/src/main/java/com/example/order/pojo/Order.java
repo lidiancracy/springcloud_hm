@@ -1,5 +1,6 @@
 package com.example.order.pojo;
 
+import com.example.ld.pojo.User;
 import lombok.Data;
 
 @Data
