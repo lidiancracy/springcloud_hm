@@ -13,6 +13,8 @@ public class UserService {
     private UserMapper userMapper;
 
     public User queryById(Long id) {
+
+        System.out.println("调用了我的user服务");
         return userMapper.findById(id);
     }
 }
